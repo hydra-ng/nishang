@@ -1,0 +1,5 @@
+nishang (0.7.6-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- teddybear <teddybear@unknown>  Wed, 23 Oct 2024 07:47:38 -1000

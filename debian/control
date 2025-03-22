@@ -1,0 +1,20 @@
+Source: nishang
+Section: unknown
+Priority: optional
+Maintainer: teddybear <teddybear@unknown>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://github.com/samratashok/nishang 
+Vcs-Browser: https://gitlab.com/blacktrack/packages/nishang
+Vcs-Git: https://gitlab.com/blacktrack/packages/nishang.git
+
+Package: nishang
+Architecture: any
+Depends:
+ powershell,
+ tree,
+ ${misc:Depends},
+Description:  Nishang - Offensive PowerShell for red team,
+ penetration testing and offensive security. 

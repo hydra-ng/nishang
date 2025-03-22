@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+set -e
+
+NISHANG_DIR="/usr/share/nishang"
+
+if [ -d "$NISHANG_DIR" ]; then
+	ls $NISHANG_DIR
+	echo -e "NISHANG available on $NISHANG_DIR, use 'cd $NISHANG_DIR'"
+else
+	echo "ERROR: NISHANG on $NISHANG_DIR not detected use as sudo/root user 'apt install nishang'"
+	exit 1
+fi
