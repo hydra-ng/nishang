@@ -2,7 +2,7 @@
 
 set -e
 
-NISHANG_DIR="/usr/share/nishang"
+NISHANG_DIR="/usr/local/Library/Applications/nishang"
 
 if [ -d "$NISHANG_DIR" ]; then
 	ls $NISHANG_DIR
